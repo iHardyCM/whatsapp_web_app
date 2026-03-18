@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WhatsApp Sender Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>📊 Dashboard Envío WhatsApp</h2>
+
+    <!-- 🔹 CARGA -->
+    <div class="card">
+        <div class="upload-container">
+            <input type="file" id="fileInput">
+            <button onclick="upload()">Subir Excel</button>
+            <button onclick="start()">Iniciar Envío</button>
+        </div>
+    </div>
+
+    <!-- 🔹 KPIs -->
+    <div class="card kpis">
+        <div class="kpi total">
+            <h3>Total</h3>
+            <p id="total">0</p>
+        </div>
+
+        <div class="kpi ok">
+            <h3>Enviados</h3>
+            <p id="enviados">0</p>
+        </div>
+
+        <div class="kpi error">
+            <h3>Errores</h3>
+            <p id="errores">0</p>
+        </div>
+
+        <div class="kpi estado">
+            <h3>Estado</h3>
+            <p id="estado">-</p>
+        </div>
+    </div>
+
+    <!-- 🔹 PROGRESO -->
+    <div class="card">
+        <h3>Progreso</h3>
+        <div class="progress">
+            <div class="progress-bar" id="barra"></div>
+        </div>
+    </div>
+
+    <!-- 🔹 TABLA -->
+    <div class="card">
+        <h3>📋 Último proceso</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Proceso</th>
+                    <th>Estado</th>
+                    <th>Total</th>
+                    <th>Enviados</th>
+                    <th>Errores</th>
+                </tr>
+            </thead>
+            <tbody id="tabla">
+                <tr>
+                    <td colspan="5">Sin datos</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>

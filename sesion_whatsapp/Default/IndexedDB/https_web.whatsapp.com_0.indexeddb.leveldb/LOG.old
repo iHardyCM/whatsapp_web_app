@@ -1,0 +1,41 @@
+2026/03/18-09:24:14.887 c768 Reusing MANIFEST C:\Users\hcruz\Documents\whatsapp_web_app\sesion_whatsapp\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/18-09:24:14.897 c768 Recovering log #3171
+2026/03/18-09:24:14.934 c768 Reusing old log C:\Users\hcruz\Documents\whatsapp_web_app\sesion_whatsapp\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/003171.log 
+2026/03/18-09:24:20.805 a388 Level-0 table #3181: started
+2026/03/18-09:24:20.838 a388 Level-0 table #3181: 1169831 bytes OK
+2026/03/18-09:24:20.841 a388 Delete type=0 #3171
+2026/03/18-09:24:20.949 a388 Compacting 1@2 + 6@3 files
+2026/03/18-09:24:20.978 a388 Generated table #3182@2: 10531 keys, 2157097 bytes
+2026/03/18-09:24:21.030 a388 Generated table #3183@2: 24594 keys, 2211975 bytes
+2026/03/18-09:24:21.082 a388 Generated table #3184@2: 42157 keys, 2174228 bytes
+2026/03/18-09:24:21.161 a388 Generated table #3185@2: 99368 keys, 2247816 bytes
+2026/03/18-09:24:21.222 a388 Generated table #3186@2: 85994 keys, 2233962 bytes
+2026/03/18-09:24:21.240 a388 Generated table #3187@2: 21049 keys, 559080 bytes
+2026/03/18-09:24:21.240 a388 Compacted 1@2 + 6@3 files => 11584158 bytes
+2026/03/18-09:24:21.241 a388 compacted to: files[ 0 0 0 6 0 0 0 ]
+2026/03/18-09:24:21.242 a388 Delete type=2 #3173
+2026/03/18-09:24:21.242 a388 Delete type=2 #3174
+2026/03/18-09:24:21.242 a388 Delete type=2 #3175
+2026/03/18-09:24:21.242 a388 Delete type=2 #3176
+2026/03/18-09:24:21.242 a388 Delete type=2 #3177
+2026/03/18-09:24:21.242 a388 Delete type=2 #3178
+2026/03/18-09:24:21.242 a388 Delete type=2 #3181
+2026/03/18-09:25:56.808 a388 Level-0 table #3189: started
+2026/03/18-09:25:56.857 a388 Level-0 table #3189: 1138727 bytes OK
+2026/03/18-09:25:56.859 a388 Delete type=0 #3180
+2026/03/18-09:25:56.982 a388 Compacting 1@2 + 6@3 files
+2026/03/18-09:25:57.043 a388 Generated table #3190@2: 10784 keys, 2157094 bytes
+2026/03/18-09:25:57.128 a388 Generated table #3191@2: 24658 keys, 2213695 bytes
+2026/03/18-09:25:57.207 a388 Generated table #3192@2: 41366 keys, 2174114 bytes
+2026/03/18-09:25:57.348 a388 Generated table #3193@2: 99293 keys, 2247193 bytes
+2026/03/18-09:25:57.499 a388 Generated table #3194@2: 85931 keys, 2235779 bytes
+2026/03/18-09:25:57.566 a388 Generated table #3195@2: 28028 keys, 734504 bytes
+2026/03/18-09:25:57.567 a388 Compacted 1@2 + 6@3 files => 11762379 bytes
+2026/03/18-09:25:57.568 a388 compacted to: files[ 0 0 0 6 0 0 0 ]
+2026/03/18-09:25:57.569 a388 Delete type=2 #3182
+2026/03/18-09:25:57.569 a388 Delete type=2 #3183
+2026/03/18-09:25:57.569 a388 Delete type=2 #3184
+2026/03/18-09:25:57.569 a388 Delete type=2 #3185
+2026/03/18-09:25:57.569 a388 Delete type=2 #3186
+2026/03/18-09:25:57.569 a388 Delete type=2 #3187
+2026/03/18-09:25:57.570 a388 Delete type=2 #3189

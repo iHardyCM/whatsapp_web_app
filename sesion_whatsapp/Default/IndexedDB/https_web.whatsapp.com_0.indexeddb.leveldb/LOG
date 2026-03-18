@@ -1,0 +1,41 @@
+2026/03/18-09:32:03.535 ca60 Reusing MANIFEST C:\Users\hcruz\Documents\whatsapp_web_app\sesion_whatsapp\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/03/18-09:32:03.537 ca60 Recovering log #3188
+2026/03/18-09:32:03.567 ca60 Reusing old log C:\Users\hcruz\Documents\whatsapp_web_app\sesion_whatsapp\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/003188.log 
+2026/03/18-09:32:09.806 6eb4 Level-0 table #3198: started
+2026/03/18-09:32:09.831 6eb4 Level-0 table #3198: 1151646 bytes OK
+2026/03/18-09:32:09.833 6eb4 Delete type=0 #3188
+2026/03/18-09:32:13.214 6eb4 Compacting 1@2 + 6@3 files
+2026/03/18-09:32:13.258 6eb4 Generated table #3199@2: 11679 keys, 2158394 bytes
+2026/03/18-09:32:13.308 6eb4 Generated table #3200@2: 24597 keys, 2212861 bytes
+2026/03/18-09:32:13.361 6eb4 Generated table #3201@2: 40055 keys, 2173966 bytes
+2026/03/18-09:32:13.471 6eb4 Generated table #3202@2: 99368 keys, 2249046 bytes
+2026/03/18-09:32:13.529 6eb4 Generated table #3203@2: 86114 keys, 2235263 bytes
+2026/03/18-09:32:13.569 6eb4 Generated table #3204@2: 35531 keys, 920318 bytes
+2026/03/18-09:32:13.569 6eb4 Compacted 1@2 + 6@3 files => 11949848 bytes
+2026/03/18-09:32:13.570 6eb4 compacted to: files[ 0 0 0 6 0 0 0 ]
+2026/03/18-09:32:13.571 6eb4 Delete type=2 #3190
+2026/03/18-09:32:13.571 6eb4 Delete type=2 #3191
+2026/03/18-09:32:13.571 6eb4 Delete type=2 #3192
+2026/03/18-09:32:13.571 6eb4 Delete type=2 #3193
+2026/03/18-09:32:13.571 6eb4 Delete type=2 #3194
+2026/03/18-09:32:13.571 6eb4 Delete type=2 #3195
+2026/03/18-09:32:13.571 6eb4 Delete type=2 #3198
+2026/03/18-09:34:11.270 ca60 Level-0 table #3206: started
+2026/03/18-09:34:11.298 ca60 Level-0 table #3206: 1154790 bytes OK
+2026/03/18-09:34:11.301 ca60 Delete type=0 #3197
+2026/03/18-09:34:11.892 8cc8 Compacting 1@2 + 6@3 files
+2026/03/18-09:34:11.928 8cc8 Generated table #3207@2: 10437 keys, 2157461 bytes
+2026/03/18-09:34:11.986 8cc8 Generated table #3208@2: 24701 keys, 2212568 bytes
+2026/03/18-09:34:12.039 8cc8 Generated table #3209@2: 41241 keys, 2175260 bytes
+2026/03/18-09:34:12.110 8cc8 Generated table #3210@2: 99429 keys, 2249613 bytes
+2026/03/18-09:34:12.185 8cc8 Generated table #3211@2: 86872 keys, 2236259 bytes
+2026/03/18-09:34:12.218 8cc8 Generated table #3212@2: 39497 keys, 1026814 bytes
+2026/03/18-09:34:12.218 8cc8 Compacted 1@2 + 6@3 files => 12057975 bytes
+2026/03/18-09:34:12.220 8cc8 compacted to: files[ 0 0 0 6 0 0 0 ]
+2026/03/18-09:34:12.220 8cc8 Delete type=2 #3199
+2026/03/18-09:34:12.220 8cc8 Delete type=2 #3200
+2026/03/18-09:34:12.220 8cc8 Delete type=2 #3201
+2026/03/18-09:34:12.220 8cc8 Delete type=2 #3202
+2026/03/18-09:34:12.220 8cc8 Delete type=2 #3203
+2026/03/18-09:34:12.221 8cc8 Delete type=2 #3204
+2026/03/18-09:34:12.221 8cc8 Delete type=2 #3206
