@@ -1,2 +1,6 @@
-2026/03/18-10:13:42.894 6b28 Creating DB C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Local Storage\leveldb since it was missing.
-2026/03/18-10:13:42.918 6b28 Reusing MANIFEST C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/01-18:04:34.683 45d8 Reusing MANIFEST C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/01-18:04:34.715 45d8 Recovering log #128
+2026/04/01-18:04:34.720 45d8 Reusing old log C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Local Storage\leveldb/000128.log 
+2026/04/01-18:07:36.087 92f0 Level-0 table #132: started
+2026/04/01-18:07:36.100 92f0 Level-0 table #132: 13020 bytes OK
+2026/04/01-18:07:36.103 92f0 Delete type=0 #128

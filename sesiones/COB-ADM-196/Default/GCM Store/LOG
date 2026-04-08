@@ -1,2 +1,3 @@
-2026/03/18-10:13:51.302 cf04 Creating DB C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\GCM Store since it was missing.
-2026/03/18-10:13:51.315 cf04 Reusing MANIFEST C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\GCM Store/MANIFEST-000001
+2026/04/01-18:04:45.956 b740 Reusing MANIFEST C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\GCM Store/MANIFEST-000001
+2026/04/01-18:04:45.957 b740 Recovering log #3
+2026/04/01-18:04:45.957 b740 Reusing old log C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\GCM Store/000003.log 

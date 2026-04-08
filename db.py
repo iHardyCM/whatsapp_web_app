@@ -1,3 +1,4 @@
+# bd.py
 import pyodbc
 
 def get_connection():
@@ -10,15 +11,29 @@ def get_connection():
     )
 
 
-def guardar_envio(proceso_id, usuario, archivo, numero, mensaje, estado, observacion=None):
+def guardar_envio(
+    proceso_id,
+    usuario,
+    numero,
+    mensaje,
+    estado,
+    documento,
+    idcartera,
+    archivo
+):
     conn = get_connection()
     cursor = conn.cursor()
 
+    numero = str(numero).strip()
+    mensaje = str(mensaje).strip()
+    documento = str(documento).strip()
+    idcartera = str(idcartera).strip()
+
     cursor.execute("""
         INSERT INTO whatsapp_envios 
-        (proceso_id, usuario, archivo_nombre, numero, mensaje, estado, observacion)
-        VALUES (?, ?, ?, ?, ?, ?, ?)
-    """, proceso_id, usuario, archivo, numero, mensaje, estado, observacion)
+        (proceso_id, usuario, archivo_nombre, numero, mensaje, estado, documento, idcartera, intento)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, 0)
+    """, proceso_id, usuario, archivo, numero, mensaje, estado, documento, idcartera)
 
     conn.commit()
     conn.close()
@@ -31,7 +46,7 @@ def crear_proceso(proceso_id, usuario, archivo, total):
     cursor.execute("""
         INSERT INTO whatsapp_procesos
         (proceso_id, usuario, archivo_nombre, total, enviados, errores, estado)
-        VALUES (?, ?, ?, ?, 0, 0, 'EN_PROCESO')
+        VALUES (?, ?, ?, ?, 0, 0, 'PENDIENTE')
     """, proceso_id, usuario, archivo, total)
 
     conn.commit()
@@ -74,3 +89,57 @@ def existe_proceso_activo(usuario):
 
     conn.close()
     return result > 0
+
+
+def obtener_y_bloquear_envio(usuario):
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute("""
+        UPDATE TOP (1) whatsapp_envios
+        SET estado = 'EN_PROCESO'
+        OUTPUT 
+            INSERTED.id, 
+            INSERTED.numero, 
+            INSERTED.mensaje, 
+            ISNULL(INSERTED.intento, 0)
+        WHERE id = (
+            SELECT TOP 1 id
+            FROM whatsapp_envios
+            WHERE usuario = ?
+            AND (
+                estado IN ('PENDIENTE', 'REINTENTO')
+                
+                -- 🔥 RECUPERA PROCESOS TRABADOS
+                OR (
+                    estado = 'EN_PROCESO' 
+                    AND DATEDIFF(MINUTE, fecha_envio, GETDATE()) > 5
+                )
+            )
+            AND ISNULL(intento, 0) < 3
+            ORDER BY id ASC
+        )
+    """, (usuario,))
+
+    row = cursor.fetchone()
+    conn.commit()
+    conn.close()
+
+    return row
+
+
+def actualizar_envio(id_envio, estado, observacion=None):
+    conn = get_connection()
+    cursor = conn.cursor()
+
+    cursor.execute("""
+        UPDATE whatsapp_envios
+        SET estado = ?, 
+            observacion = ?, 
+            fecha_envio = GETDATE(),
+            intento = ISNULL(intento, 0) + 1
+        WHERE id = ?
+    """, estado, observacion, id_envio)
+
+    conn.commit()
+    conn.close()

@@ -1,2 +1,3 @@
-2026/03/18-10:13:45.067 31a4 Creating DB C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Service Worker\Database since it was missing.
-2026/03/18-10:13:45.075 31a4 Reusing MANIFEST C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Service Worker\Database/MANIFEST-000001
+2026/04/01-18:04:34.567 d634 Reusing MANIFEST C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Service Worker\Database/MANIFEST-000001
+2026/04/01-18:04:34.567 d634 Recovering log #3
+2026/04/01-18:04:34.570 d634 Reusing old log C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Service Worker\Database/000003.log 
