@@ -1,6 +1,12 @@
-2026/04/01-17:42:29.115 aea8 Reusing MANIFEST C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Local Storage\leveldb/MANIFEST-000001
-2026/04/01-17:42:29.121 aea8 Recovering log #124
-2026/04/01-17:42:29.124 aea8 Reusing old log C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Local Storage\leveldb/000124.log 
-2026/04/01-17:51:30.566 1118 Level-0 table #129: started
-2026/04/01-17:51:30.579 1118 Level-0 table #129: 14516 bytes OK
-2026/04/01-17:51:30.583 1118 Delete type=0 #124
+2026/04/10-13:32:49.346 3e44 Reusing MANIFEST C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/10-13:32:49.368 3e44 Recovering log #163
+2026/04/10-13:32:49.376 3e44 Reusing old log C:\Users\hcruz\Documents\whatsapp_web_app\sesiones\COB-ADM-196\Default\Local Storage\leveldb/000163.log 
+2026/04/10-13:34:50.826 51e0 Level-0 table #168: started
+2026/04/10-13:34:50.834 51e0 Level-0 table #168: 19503 bytes OK
+2026/04/10-13:34:50.836 51e0 Delete type=0 #163
+2026/04/10-13:45:50.778 51e0 Level-0 table #170: started
+2026/04/10-13:45:50.787 51e0 Level-0 table #170: 14743 bytes OK
+2026/04/10-13:45:50.790 51e0 Delete type=0 #167
+2026/04/10-13:57:50.756 51e0 Level-0 table #172: started
+2026/04/10-13:57:50.772 51e0 Level-0 table #172: 12859 bytes OK
+2026/04/10-13:57:50.776 51e0 Delete type=0 #169
